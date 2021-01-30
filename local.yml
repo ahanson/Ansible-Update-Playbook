@@ -15,31 +15,24 @@
     become: true
     apt:
       name:
-        - b43-fwcutter #Broadcom wireless drivers
-        - ca-certificates #List of CA certificates (for safer browsing)
-        - cdrdao #CD recording software
-        - chromium-browser # open-source web browser
-        - firmware-b43-installer #broadcom wireless drivers 
-        - gimp #Image Editing Software
-        - hardinfo # system information
-        - htop # Processes, Memory Usage, etc
-        - inkscape #Vector Graphics Program
-        - libdvdcss2 #DVD Playback
-        - moc #Music On Console
-        - ubuntu-restricted-extras #codecs
-        - vlc #Multi-format media player
         - abook # http://abook.sourceforge.net/ | CLI Address Book
         - artha #http://artha.sourceforge.net/wiki/index.php/Home | Thesaurus
         - audacity #https://www.audacityteam.org/ | WAV Editor
         - bmon #https://github.com/tgraf/bmon | CLI bandwith monitor
         - brasero #https://wiki.gnome.org/Apps/Brasero | CD/DVD Burner
+        - b43-fwcutter #Broadcom wireless drivers
+        - ca-certificates #List of CA certificates (for safer browsing)
         - catfish #http://www.twotoasts.de/index.php/catfish/ | File Search Program
+        - cdrdao #CD recording software
+        - chromium-browser # open-source web browser        
         - dosbox #https://www.dosbox.com/ | DOS Emulator
         - dos2unix #http://dos2unix.sourceforge.net/ | Converts files from dos format to unix format
         - fdupes #https://github.com/adrianlopezroche/fdupes | CLI duplicate file detector
         - filezilla #https://filezilla-project.org/ | FTP/SFTP Client
+        - firmware-b43-installer #broadcom wireless drivers 
         - fslint #https://www.pixelbeat.org/fslint/ | Duplicate file detector
         - giada #https://www.giadamusic.com/ | Sampler/Sequencer
+        - gimp #Image Editing Software
         - git #https://git-scm.com/ | VCS
         - gnome-clocks #https://help.gnome.org/users/gnome-clocks/stable/ | Timer
         - gparted #https://gparted.org/ | Partition Editor
@@ -54,6 +47,7 @@
         - ipscan #http://angryip.org/download/#linux | Simple network scanner
         - jekyll #https://jekyllrb.com/ | Static Site Generator
         - keepassx #https://www.keepassx.org/ | Password Manager
+        - libdvdcss2 #DVD Playback
         - libvirt-bin #https://virt-manager.org/ | Virtualization Manager
         - links #http://links.twibright.com/ | CLI web browser
         - lyx #https://www.lyx.org/ | Latex Word Processor
@@ -75,8 +69,10 @@
         - steam #http://store.steampowered.com/ | Games Platform
         - testdisk #https://www.cgsecurity.org/wiki/TestDisk | Data Recovery 
         - ubuntu-make #https://wiki.ubuntu.com/ubuntu-make | Installs dev tools 
+        - ubuntu-restricted-extras #codecs
         - unetbootin #https://unetbootin.github.io/ | Creates bootable USB sticks
         - vagrant #https://www.vagrantup.com/ | Quick VMs for development
+        - vlc #Multi-format media player
         - wordgrinder #http://cowlark.com/wordgrinder/ | CLI word processor
         - wine #https://www.winehq.org/ | Windows Emulator
         - winetricks #https://wiki.winehq.org/Winetricks | Install stuff with Wine, easily.
