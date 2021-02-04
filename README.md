@@ -1,2 +1,2 @@
-# Ansible-Update-Playbook
-My personal update script, but redone with Ansible Pull.
+# Ansible Update Playbook
+My [personal update script](https://github.com/ahanson/PersonalUpdateScript), but redone with [Ansible Pull](https://docs.ansible.com/ansible/latest/cli/ansible-pull.html).
