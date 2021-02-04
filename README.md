@@ -8,3 +8,9 @@ Requires Git and Ansible:
 How to run the script on the target machine:
 
     sudo ansible-pull -U https://github.com/ahanson/Ansible-Update-Playbook.git
+    
+How to gather_facts on the target machine:
+
+    ansible localhost -m setup
+    
+## Contents:
