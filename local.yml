@@ -19,6 +19,7 @@
         - ipscan #http://angryip.org/download/#linux | Simple network scanner
         - puddletag #http://docs.puddletag.net/ | Music Metadata Editor
         - unetbootin #https://unetbootin.github.io/ | Creates bootable USB sticks
+        - zenmap #https://nmap.org/zenmap/ | Network Scanner
       state: latest
     when: ansible_distribution == "Ubuntu" 
   - name: Install basic packages.
@@ -83,7 +84,6 @@
         - winetricks #https://wiki.winehq.org/Winetricks | Install stuff with Wine, easily.
         - wireshark #https://goodies.xfce.org/projects/applications/xfburn | Network monitoring
         - xfburn #https://goodies.xfce.org/projects/applications/xfburn | CD/DVD burner
-        - zenmap #https://nmap.org/zenmap/ | Network Scanner
       state: latest
     when: ansible_distribution == "Linux Mint"
   - name: Remove useless packages from the cache
