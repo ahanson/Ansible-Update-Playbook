@@ -18,6 +18,7 @@
         - fslint #https://www.pixelbeat.org/fslint/ | Duplicate file detector
         - ipscan #http://angryip.org/download/#linux | Simple network scanner
         - puddletag #http://docs.puddletag.net/ | Music Metadata Editor
+        - unetbootin #https://unetbootin.github.io/ | Creates bootable USB sticks
       state: latest
     when: ansible_distribution == "Ubuntu" 
   - name: Install basic packages.
@@ -75,7 +76,6 @@
         - testdisk #https://www.cgsecurity.org/wiki/TestDisk | Data Recovery 
         - ubuntu-make #https://wiki.ubuntu.com/ubuntu-make | Installs dev tools 
         - ubuntu-restricted-extras #codecs
-        - unetbootin #https://unetbootin.github.io/ | Creates bootable USB sticks
         - vagrant #https://www.vagrantup.com/ | Quick VMs for development
         - vlc #Multi-format media player
         - wordgrinder #http://cowlark.com/wordgrinder/ | CLI word processor
