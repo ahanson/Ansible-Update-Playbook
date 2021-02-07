@@ -16,6 +16,7 @@
     apt:
       name:
         - fslint #https://www.pixelbeat.org/fslint/ | Duplicate file detector
+        - ipscan #http://angryip.org/download/#linux | Simple network scanner
       state: latest
     when: ansible_distribution == "Ubuntu" 
   - name: Install basic packages.
@@ -50,7 +51,6 @@
         - i7z #http://www.webupd8.org/2014/04/i7z-monitor-intel-i7-i5-and-i3.html |
         - inxi #https://smxi.org/docs/inxi.htm | Straightforward system information
         - inkscape #https://inkscape.org/en/ | SVG editor
-        - ipscan #http://angryip.org/download/#linux | Simple network scanner
         - jekyll #https://jekyllrb.com/ | Static Site Generator
         - keepassx #https://www.keepassx.org/ | Password Manager
         - libdvdcss2 #DVD Playback
