@@ -17,6 +17,7 @@
       name:
         - fslint #https://www.pixelbeat.org/fslint/ | Duplicate file detector
         - ipscan #http://angryip.org/download/#linux | Simple network scanner
+        - puddletag #http://docs.puddletag.net/ | Music Metadata Editor
       state: latest
     when: ansible_distribution == "Ubuntu" 
   - name: Install basic packages.
@@ -66,7 +67,6 @@
         - pandoc #https://pandoc.org | converts various markdown formats
         - pdfmod #https://wiki.gnome.org/Apps/PdfMod | PDF Editor
         - pdfshuffler #https://github.com/jeromerobert/pdfshuffler | PDF Editor
-        - puddletag #http://docs.puddletag.net/ | Music Metadata Editor
         - scribus #https://www.scribus.net/ | desktop publishing
         - shellcheck #https://www.shellcheck.net/ | finds errors in bash scripts
         - soundconverter #http://soundconverter.org/ | Converts sound files between different formats
