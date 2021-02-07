@@ -48,7 +48,6 @@ How to gather_facts on the target machine:
 * [jekyll](https://jekyllrb.com/ ): Static Site Generator
 * [keepassx](https://www.keepassx.org/): Password Manager
 * libdvdcss2: DVD Playback
-* [libvirt-bin](https://virt-manager.org/): Virtualization Manager
 * [links](http://links.twibright.com/): CLI web browser
 * [lyx](https://www.lyx.org/): Latex Word Processor
 * [magic-wormhole](https://magic-wormhole.readthedocs.io/en/latest/): Share files over a network, securely
