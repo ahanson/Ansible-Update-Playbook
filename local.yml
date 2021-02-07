@@ -15,8 +15,8 @@
     become: true
     apt:
       name:
-         - fslint #https://www.pixelbeat.org/fslint/ | Duplicate file detector
-       state: latest
+        - fslint #https://www.pixelbeat.org/fslint/ | Duplicate file detector
+      state: latest
     when: ansible_distribution == "Ubuntu" 
   - name: Install basic packages.
     become: true
