@@ -13,8 +13,8 @@
     when: ansible_distribution == "Linux Mint" or ansible_distribution == "Ubuntu" 
   - name: Install basic Ubuntu packages.
     become: true
-     apt:
-       name:
+    apt:
+      name:
          - fslint #https://www.pixelbeat.org/fslint/ | Duplicate file detector
        state: latest
      when: ansible_distribution == "Ubuntu" 
