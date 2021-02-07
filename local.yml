@@ -10,7 +10,13 @@
   - name: Upgrade.
     apt:
       upgrade: dist
-    when: ansible_distribution == "Linux Mint" or ansible_distribution == "Ubuntu"    
+    when: ansible_distribution == "Linux Mint" or ansible_distribution == "Ubuntu" 
+  - name: Install basic Ubuntu packages.
+    become: true
+     apt:
+       name:
+         - fslint #https://www.pixelbeat.org/fslint/ | Duplicate file detector
+     when: ansible_distribution == "Ubuntu" 
   - name: Install basic packages.
     become: true
     apt:
@@ -30,7 +36,6 @@
         - fdupes #https://github.com/adrianlopezroche/fdupes | CLI duplicate file detector
         - filezilla #https://filezilla-project.org/ | FTP/SFTP Client
         - firmware-b43-installer #broadcom wireless drivers 
-        - fslint #https://www.pixelbeat.org/fslint/ | Duplicate file detector
         - giada #https://www.giadamusic.com/ | Sampler/Sequencer
         - gimp #Image Editing Software
         - git #https://git-scm.com/ | VCS
