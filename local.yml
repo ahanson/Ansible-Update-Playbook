@@ -88,6 +88,7 @@
     when: ansible_distribution == "Linux Mint"
   - name: Add Onionshare repository
     apt_repository:
+     become: true
      repo: "ppa:micahflee/ppa"
      state: present
      filename: Onionshare
