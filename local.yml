@@ -88,7 +88,7 @@
     when: ansible_distribution == "Linux Mint"
   - name: Add key
     apt_key:
-     url: https://micahflee.com/micah.asc
+     url: https://keyserver.ubuntu.com/pks/lookup?fingerprint=on&op=index&search=0x7EF33F027E9E4869F46F77E34E72F77D7D158F33
      state: present
   tags:
   - name: Add Onionshare repository
