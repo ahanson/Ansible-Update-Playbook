@@ -86,6 +86,11 @@
         - xfburn #https://goodies.xfce.org/projects/applications/xfburn | CD/DVD burner
       state: latest
     when: ansible_distribution == "Linux Mint"
+  - name: Add key
+    apt_key:
+     url: https://keybase.io/micahflee/pgp_keys.asc?fingerprint=927f419d7ec82c2f149c1bd1403c2657cd994f73
+     state: present
+  tags:
   - name: Add Onionshare repository
     become: true
     apt_repository:
