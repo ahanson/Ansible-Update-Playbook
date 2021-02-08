@@ -17,7 +17,7 @@ How to gather_facts on the target machine:
 
 * [abook](http://abook.sourceforge.net/): CLI Address Book.
 * [artha](http://artha.sourceforge.net/wiki/index.php/Home): Thesaurus.
-* [audacity](https://www.audacityteam.org/): WAV Editor>
+* [audacity](https://www.audacityteam.org/): WAV Editor.
 * [bmon](https://github.com/tgraf/bmon): CLI bandwith monitor.
 * [brasero](https://wiki.gnome.org/Apps/Brasero): CD/DVD Burner.
 * b43-fwcutter: Broadcom wireless drivers
