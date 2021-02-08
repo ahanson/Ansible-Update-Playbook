@@ -86,6 +86,17 @@
         - xfburn #https://goodies.xfce.org/projects/applications/xfburn | CD/DVD burner
       state: latest
     when: ansible_distribution == "Linux Mint"
+  - name: Add Onionshare repository
+    ansible.builtin.apt_repository:
+     repo: "ppa:micahflee/ppa"
+    state: present
+  - name: install Onionshare
+    become: true
+    apt:
+      name:
+       - onionshare
+      state: latest
+    when: ansible_distribution == "Linux Mint"
   - name: Remove useless packages from the cache
     apt:
      autoclean: yes
