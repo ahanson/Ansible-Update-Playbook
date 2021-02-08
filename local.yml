@@ -87,7 +87,7 @@
       state: latest
     when: ansible_distribution == "Linux Mint"
   - name: Add Onionshare repository
-    ansible.builtin.apt_repository:
+    apt_repository:
      repo: "ppa:micahflee/ppa"
     state: present
   - name: install Onionshare
