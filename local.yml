@@ -89,6 +89,7 @@
   - name: Add Onionshare repository
     apt_repository:
      repo: "ppa:micahflee/ppa"
+     state: present
   - name: install Onionshare
     become: true
     apt:
